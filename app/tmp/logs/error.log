@@ -1,0 +1,30 @@
+2011-11-20 16:03:07 Error: [MissingActionException] Action PagesController::sobre-este-site() could not be found.
+#0 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-20 16:04:12 Error: [MissingViewException] View file "D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\View\Pages\sobre-este-site.ctp" is missing.
+#0 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\View\View.php(363): View->_getViewFileName('sobre-este-site')
+#1 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Controller\Controller.php(900): View->render('sobre-este-site', NULL)
+#2 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Controller\PagesController.php(80): Controller->render('sobre-este-site')
+#3 [internal function]: PagesController->display('sobre-este-site')
+#4 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-26 23:19:36 Error: [MissingActionException] Action PagesController::%3Cimg%20src=%22() could not be found.
+#0 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-26 23:19:57 Error: [MissingActionException] Action PagesController::img() could not be found.
+#0 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-26 23:20:14 Error: [MissingActionException] Action PagesController::img() could not be found.
+#0 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

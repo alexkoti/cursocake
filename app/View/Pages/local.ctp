@@ -1,0 +1,4 @@
+<h1>Local</h1>
+
+<?php echo $this->element('address', array('address' => 'Este Element foi requisitado por <code>app/View/Pages/local.ctp</code>.')) ?>
+<iframe width="700" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?q=Rua+da+Consola%C3%A7%C3%A3o,+94&amp;ie=UTF8&amp;hq=&amp;hnear=R.+da+Consola%C3%A7%C3%A3o,+94+-+Rep%C3%BAblica,+S%C3%A3o+Paulo,+01302-000&amp;gl=br&amp;t=m&amp;vpsrc=0&amp;ll=-23.547779,-46.642284&amp;spn=0.031473,0.059996&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com.br/maps?q=Rua+da+Consola%C3%A7%C3%A3o,+94&amp;ie=UTF8&amp;hq=&amp;hnear=R.+da+Consola%C3%A7%C3%A3o,+94+-+Rep%C3%BAblica,+S%C3%A3o+Paulo,+01302-000&amp;gl=br&amp;t=m&amp;vpsrc=0&amp;ll=-23.547779,-46.642284&amp;spn=0.031473,0.059996&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Exibir mapa ampliado</a></small>
