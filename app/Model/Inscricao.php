@@ -14,13 +14,12 @@ class Inscricao extends AppModel {
 	public $cacheQueries = true;
 	public $validate = array(
 		'nome' => array(
-			'isUnique' => array(
+			array(
 				'rule' => 'isUnique',
 				'message' => 'Este nome já está cadastrado!',
 			),
-			'required' => array(
-				'required' => true,
-				'allowEmpty' => false,
+			array(
+				'rule' => 'notEmpty',
 				'message' => 'Preencha o seu nome',
 			),
 		),
@@ -32,13 +31,13 @@ class Inscricao extends AppModel {
 				'allowEmpty' => false,
 			),
 		),
-		'telefone' => array(
-			'required' => array(
-				'required' => true,
-				'allowEmpty' => false,
-				'message' => 'Precisamos de um telefone para entrar em contato caso seja preciso.',
-			),
-		),
+		//'telefone' => array(
+		//	'required' => array(
+		//		'required' => true,
+		//		'allowEmpty' => false,
+		//		'message' => 'Precisamos de um telefone para entrar em contato caso seja preciso.',
+		//	),
+		//),
 	);
 }
 
