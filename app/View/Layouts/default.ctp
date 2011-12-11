@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <title>Ciclo de palestras sobre literatura fantástica</title>
 <?php echo $this->Html->css('site') ?>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,300italic,400italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div id="site">

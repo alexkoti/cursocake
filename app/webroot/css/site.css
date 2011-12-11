@@ -270,13 +270,13 @@ background:		#FFF;
 body {
 	background:#fff;
 	color:#555555;
-	font:14px arial, verdana, sans-serif;
+	font:300 14px ubuntu,arial, verdana, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
 	color:#0B4E91;
-	font:normal italic 14px Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
+	font:500 italic 14px;
 }
-h1 {font-size:33px;}
+h1 {font-size:36px;}
 h2 {font-size:28px;}
 h3 {font-size:24px;}
 h4 {font-size:20px;}
@@ -393,10 +393,17 @@ header {
 	/* border-left:10px double #0B4E91; */
 	border-bottom:1px solid #0B4E91;
 	clear:both;
-	margin:0 0 20px;
+	margin:10px 0 20px;
 	overflow:hidden;
 	padding:20px 20px;
 	
+	border:1px solid #5682AD;
+	border-left:5px solid #5682AD;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	/**
 	background-image: linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
 	background-image: -o-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
 	background-image: -moz-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
@@ -409,8 +416,10 @@ header {
 		color-stop(0, #eeeeee),
 		color-stop(1, rgb(196,221,245))
 	);
+	/**/
 }
 header h1 {
+	font-family:ubuntu, arial, sans-serif;
 	font-size:28px;
 	font-style:normal;
 	font-weight:bold;
@@ -514,12 +523,18 @@ header h1 a {
 footer {
 	border-top:1px solid;
 	clear:both;
-	font-family:Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
 	font-style:italic;
-	margin:30px 0 0;
+	margin:30px 0 10px;
 	overflow:hidden;
 	padding:10px;
 	
+	border:1px solid #5682AD;
+	border-left:5px solid #5682AD;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	/**
 	background-image: linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
 	background-image: -o-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
 	background-image: -moz-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
@@ -532,6 +547,7 @@ footer {
 		color-stop(0, #eeeeee),
 		color-stop(1, rgb(196,221,245))
 	);
+	/**/
 }
 
 
@@ -639,4 +655,11 @@ form .input label {
 .ipt_size_medium {width:250px;}
 .ipt_size_large {width:500px;}
 .ipt_size_full {width:98%;}
+
+.error-message {
+	background:#FFFFE0;
+	display:block;
+	margin:2px 0 10px;
+	padding:4px;
+}
 

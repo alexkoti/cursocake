@@ -44,7 +44,7 @@
 	Router::connect('/inscricao', array('controller' => 'inscricoes', 'action' => 'inscrever'));
 	
 	// rota para profile
-	//Router::connect('/profile', array('controller' => 'profiles', 'action' => 'adicionar'));
+	Router::connect('/profile', array('controller' => 'profiles', 'action' => 'adicionar'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 

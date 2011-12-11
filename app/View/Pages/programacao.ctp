@@ -49,7 +49,7 @@
 <h2>Dia 7 - Infantil e Juvenil 1</h2>
 <ul>
 	<li><strong>Século XIX:</strong> Irmãos Grimm, Hans Christian Andersen, Lewis Carroll(<em>Alice</em>), Carlo Collodi(<em>Pinocchio</em>), Robert Louis Stevenson(<em>Ilha do Tesouro</em>), Rudyard Kipling(<em>Livro Das Selvas</em>), L. Frank Baum(<em>O Mágico de Oz</em>).</li>
-	<li><strong>Século XX:</strong> J.M Barrie(<em>Peter Pan</em>), Beatrix Potter(<em>Perter Rabbit</em>), T. H. White(<em>A Espada Era A Lei</em>), Edith Nesbit(<em>O Castelo Encatado</em>).</li>
+	<li><strong>Século XX:</strong> J.M Barrie(<em>Peter Pan</em>), Beatrix Potter(<em>Peter Rabbit</em>), T. H. White(<em>A Espada Era A Lei</em>), Edith Nesbit(<em>O Castelo Encatado</em>).</li>
 </ul>
 
 <h2>Dia 8 - Infantil e Juvenil 2</h2>

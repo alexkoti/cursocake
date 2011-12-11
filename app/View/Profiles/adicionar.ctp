@@ -1,5 +1,4 @@
 <?php
-
 echo $this->Form->create('Profile', array('action' => 'adicionar'));
 echo $this->Form->input('nome');
 echo $this->Form->input('email');
