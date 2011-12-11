@@ -30,13 +30,21 @@
  * ...and connect the rest of 'Pages' controller's urls.
  */
 	//Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
-	// rota personalizada para 'pages'
+	
+	// rota personalizada para 'pages' generic
 	Router::connect('/pagina/*', array('controller' => 'pages', 'action' => 'display'));
-	// 
+	
+	// rota direta para as páginas, sem declaração do controller pages
 	Router::connect('/programacao', array('controller' => 'pages', 'action' => 'display', 'programacao'));
 	Router::connect('/sobre', array('controller' => 'pages', 'action' => 'display', 'sobre'));
 	Router::connect('/local', array('controller' => 'pages', 'action' => 'display', 'local'));
 	Router::connect('/local', array('controller' => 'pages', 'action' => 'display', 'sobre')); // mesma rota para '/local' >> conclusão, vale a primeira declaração
+	
+	// rota para a inscrição
+	Router::connect('/inscricao', array('controller' => 'inscricoes', 'action' => 'inscrever'));
+	
+	// rota para profile
+	//Router::connect('/profile', array('controller' => 'profiles', 'action' => 'adicionar'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 

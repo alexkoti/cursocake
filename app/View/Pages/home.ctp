@@ -1,5 +1,5 @@
 <figure>
-	<?php echo $this->Html->image( 'historia_da_ficcao_cientifica.png', array('url' => '/' . IMAGES_URL . 'historia_da_ficcao_cientifica_large.jpg', 'title' => 'Ampliar') ); ?>
+	<?php echo $this->Html->image( 'historia_da_ficcao_cientifica.png', array('url' => '/img/historia_da_ficcao_cientifica_large.jpg', 'title' => 'Ampliar') ); ?>
 	<figcaption>
 		Linha do tempo da ficção científica: <em>The History of Science Fiction, ver. 1</em>, por <a href="http://www.wardshelley.com/paintings/pages/HistoryofScienceFiction.html">Ward Shelley</a>
 	</figcaption>

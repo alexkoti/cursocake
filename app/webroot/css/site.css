@@ -386,15 +386,29 @@ pre {
 /* ========================================================================== */
 #site {
 	margin:0 auto;
-	width:1000px;
+	width:1020px;
 }
 header {
 	background:#eeeeee;
-	border-left:10px double #0B4E91;
+	/* border-left:10px double #0B4E91; */
+	border-bottom:1px solid #0B4E91;
 	clear:both;
 	margin:0 0 20px;
 	overflow:hidden;
-	padding:20px 10px;
+	padding:20px 20px;
+	
+	background-image: linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
+	background-image: -o-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
+	background-image: -moz-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
+	background-image: -webkit-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
+	background-image: -ms-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #eeeeee),
+		color-stop(1, rgb(196,221,245))
+	);
 }
 header h1 {
 	font-size:28px;
@@ -424,7 +438,7 @@ header h1 a {
 /* ========================================================================== */
 #column {
 	float:right;
-	width:700px;
+	width:710px;
 }
 #column > hr {
 	margin:30px 200px;
@@ -456,7 +470,7 @@ header h1 a {
 /* ========================================================================== */
 #sidebar {
 	float:left;
-	width:300px;
+	width:310px;
 }
 	#sidebar nav ul {
 		margin:0 20px 20px 0;
@@ -466,22 +480,31 @@ header h1 a {
 		margin:0 0 10px 0;
 	}
 	#sidebar nav ul li a {
-		border-right:1px solid transparent;
-		border-left:4px solid #0B4E91;
+		border:1px solid #5682AD;
+		border-left:4px solid #5682AD;
 		display:block;
+		margin:5px 5px 0 0;
 		padding:10px;
 		text-decoration:none;
+		
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
 	}
 	#sidebar nav ul li.current-menu-item a,
 	#sidebar nav ul li a.active,
 	#sidebar nav ul li a:hover {
-		background-color:#c3ddf7;
-		border-right:1px solid #0B4E91;
-		border-left:4px solid #0B4E91;
+		background-color:#EFF6FC;
+		border-right:1px solid #5682AD;
+		border-left:4px solid #5682AD;
 		-webkit-transition: background 200ms ease-in;
 		-moz-transition: background 200ms ease-in;
 		-o-transition: background 200ms ease-in;
 		transition: background 200ms ease-in;
+		
+		box-shadow:inset #5682AD 0 0 5px;
+		-moz-box-shadow:inset #5682AD 0 0 5px;
+		-webkit-box-shadow:inset #5682AD 0 0 5px;
 	}
 
 
@@ -496,6 +519,19 @@ footer {
 	margin:30px 0 0;
 	overflow:hidden;
 	padding:10px;
+	
+	background-image: linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
+	background-image: -o-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
+	background-image: -moz-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
+	background-image: -webkit-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
+	background-image: -ms-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #eeeeee),
+		color-stop(1, rgb(196,221,245))
+	);
 }
 
 
@@ -585,3 +621,22 @@ button {
 	button img {
 		vertical-align:text-bottom;
 	}
+form .input {
+	margin:5px 0;
+}
+form .input:nth-child(2) {
+	margin:0 0 5px;
+}
+form .input:last-of-type {
+	margin:5px 0 0;
+}
+form .input label {
+	display:inline-block;
+	width:100px;
+}
+.ipt_size_tiny {width:30px;}
+.ipt_size_small {width:120px;}
+.ipt_size_medium {width:250px;}
+.ipt_size_large {width:500px;}
+.ipt_size_full {width:98%;}
+
