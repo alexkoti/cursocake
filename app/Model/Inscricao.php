@@ -19,23 +19,25 @@ class Inscricao extends AppModel {
 				'message' => 'Este nome já está cadastrado!',
 			),
 			'required' => array(
-				'rule' => 'required',
 				'required' => true,
 				'allowEmpty' => false,
-				'message' => 'Preencha o email',
+				'message' => 'Preencha o seu nome',
 			),
 		),
 		'email' => array(
-			'rule' => 'email',
-			'message' => 'Insira um email válido',
-			'required' => true,
-			'allowEmpty' => false,
+			'email' => array(
+				'rule' => 'email',
+				'message' => 'Insira um email válido',
+				'required' => true,
+				'allowEmpty' => false,
+			),
 		),
 		'telefone' => array(
-			'rule' => 'telefone',
-			'message' => 'Precisamos de um telefone para entrar em contato caso seja preciso.',
-			'required' => true,
-			'allowEmpty' => false,
+			'required' => array(
+				'required' => true,
+				'allowEmpty' => false,
+				'message' => 'Precisamos de um telefone para entrar em contato caso seja preciso.',
+			),
 		),
 	);
 }

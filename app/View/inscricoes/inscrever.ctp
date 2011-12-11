@@ -10,6 +10,14 @@
 
 <p>Resultado de <code>$this->set( 'lorem', 'ipsum' )</code> = <kbd><?php echo $lorem; ?></kbd></p>
 
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio enim, molestie non, pretium ut, fringilla vel, libero. Nam adipiscing ultricies nisl. 
+Sed ornare. Vivamus sodales congue ligula. Nunc purus nulla, consectetuer non, sollicitudin a, tincidunt non, arcu. Nam purus urna, consequat eu, mattis 
+scelerisque, facilisis eu, leo.</p>
+
+<p>Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer libero diam, eleifend et, vestibulum non, 
+scelerisque ut, ipsum. Ut dictum mattis libero. Duis quis arcu vel elit ultrices ornare. Donec neque dui, auctor eget, aliquet quis, tempus id, sem.
+Fusce sapien.Duis lectus eros, elementum vitae, egestas eu, pharetra quis, nisl. Pellentesque viverra. Pellentesque id mauris gravida metus ultricies tincidunt.</p>
+
 <?php
 /**
  * Poderia usar a primeira linha comentada, caso não tivesse sido feita a rota para este controller>action

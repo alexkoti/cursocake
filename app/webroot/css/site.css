@@ -389,19 +389,21 @@ pre {
 	width:1020px;
 }
 header {
-	background:#eeeeee;
+	background:#eeeeee url( ../img/header_jian_guo.jpg ) no-repeat 0 0;
 	/* border-left:10px double #0B4E91; */
-	border-bottom:1px solid #0B4E91;
 	clear:both;
+	color:#fff;
+	font-weight:500;
 	margin:10px 0 20px;
 	overflow:hidden;
-	padding:20px 20px;
+	padding:10px;
 	
-	border:1px solid #5682AD;
-	border-left:5px solid #5682AD;
-	border-radius:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
+	border-radius:14px;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	
+	text-shadow: 2px 2px 0px #000;
+	filter: dropshadow(color=#00, offx=2, offy=2);
 	
 	/**
 	background-image: linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
@@ -419,17 +421,53 @@ header {
 	/**/
 }
 header h1 {
+	background:rgba(255,255,255,0.6);
 	font-family:ubuntu, arial, sans-serif;
-	font-size:28px;
+	font-size:33px;
 	font-style:normal;
 	font-weight:bold;
+	padding:2px 5px 140px;
+	
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+		
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 78%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(78%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0) 78%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0) 78%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0) 78%,rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,0) 78%,rgba(255,255,255,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 header h1 a {
+	color:#fff !important;
+	text-decoration:none;
+}
+header h1 a:hover {
 	text-decoration:none;
 }
 #resume {
-	font-size:16px;
+	font-size:20px;
 	margin:20px 0 0;
+	padding:5px;
+	
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 0;
+	-moz-border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-radius: 0 0 0 8px;
+	border-radius: 0 0 0 8px;
+	background: -moz-linear-gradient(left,  rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 93%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0.6)), color-stop(93%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 93%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 93%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 93%,rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(left,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 93%,rgba(255,255,255,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 }
 
 
@@ -521,33 +559,22 @@ header h1 a {
 /* FOOTER =================================================================== */
 /* ========================================================================== */
 footer {
+	background:#eeeeee url( ../img/header_jian_guo.jpg ) no-repeat left bottom;
 	border-top:1px solid;
 	clear:both;
 	font-style:italic;
 	margin:30px 0 10px;
 	overflow:hidden;
-	padding:10px;
 	
 	border:1px solid #5682AD;
 	border-left:5px solid #5682AD;
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
-	
-	/**
-	background-image: linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
-	background-image: -o-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
-	background-image: -moz-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
-	background-image: -webkit-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
-	background-image: -ms-linear-gradient(bottom, #eeeeee 0%, rgb(196,221,245) 100%);
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0, #eeeeee),
-		color-stop(1, rgb(196,221,245))
-	);
-	/**/
+}
+footer address {
+	background:rgba(255,255,255,0.9);
+	padding:10px;
 }
 
 
@@ -555,9 +582,12 @@ footer {
 /* ITENS DE FORMULÁRIO ====================================================== */
 /* ========================================================================== */
 form {
-	border:1px dashed;
+	border:1px dotted;
 	margin:10px 0;
 	padding:10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
 }
 	form ul li {
 		padding:5px;
@@ -588,22 +618,27 @@ input[type=password] {
 input[type=reset],
 input[type=button],
 input[type=submit] {
-	background:#DDD;
-	border:1px solid;
+	background:#EFF6FC;
+	border:1px solid #5682AD;
 	font-size:12px;
 	line-height:20px;
 	margin:0;
 	overflow:visible;
-	padding:2px 5px;
+	padding:2px 10px;
+	
+	border-radius:12px;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
 }
 	input[type=reset]:hover,
 	input[type=button]:hover,
 	input[type=submit]:hover {
-		background:#BBB;
+		background:#EFF6FC;
+		color:#5682AD;
 	}
 input[type=submit] {
-	background:#DDFFDD;
-	color:green;
+	background:#5682AD;
+	color:#fff;
 }
 input[type=checkbox],
 input[type=radio] {
@@ -638,17 +673,15 @@ button {
 		vertical-align:text-bottom;
 	}
 form .input {
-	margin:5px 0;
-}
-form .input:nth-child(2) {
 	margin:0 0 5px;
-}
-form .input:last-of-type {
-	margin:5px 0 0;
+	padding:5px;
 }
 form .input label {
 	display:inline-block;
 	width:100px;
+}
+form div.input.error {
+	background:#FFFFE0;
 }
 .ipt_size_tiny {width:30px;}
 .ipt_size_small {width:120px;}
@@ -659,7 +692,9 @@ form .input label {
 .error-message {
 	background:#FFFFE0;
 	display:block;
-	margin:2px 0 10px;
-	padding:4px;
+}
+
+.error .ipt_text {
+	border:1px solid #b4252b;
 }
 
