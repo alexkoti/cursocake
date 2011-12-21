@@ -146,3 +146,25 @@
 #3 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
 #4 D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2011-12-21 16:10:26 Error: [MissingTableException] Database table palestras for model Palestra was not found.
+#0 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Model\Model.php(3238): Model->setSource('palestras')
+#1 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Model\Model.php(2460): Model->getDataSource()
+#2 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#3 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#4 D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\Controller\PalestrasController.php(14): Controller->paginate()
+#5 [internal function]: PalestrasController->index()
+#6 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(PalestrasController), Array)
+#7 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#9 D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2011-12-21 16:18:42 Error: [MissingActionException] Action PalestrantesController::ver() could not be found.
+#0 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PalestrantesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-21 16:18:50 Error: [MissingActionException] Action PalestrasController::adicionar() could not be found.
+#0 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 D:\PHP\xampp\htdocs\xampp\sites\cursocake\lib\Cake\Routing\Dispatcher.php(89): Dispatcher->_invoke(Object(PalestrasController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\PHP\xampp\htdocs\xampp\sites\cursocake\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

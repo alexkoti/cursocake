@@ -14,14 +14,15 @@ class Inscricao extends AppModel {
 	public $cacheQueries = true;
 	public $validate = array(
 		'nome' => array(
-			array(
+			'isUnique' => array(
 				'rule' => 'isUnique',
 				'message' => 'Este nome já está cadastrado!',
 			),
-			array(
-				'rule' => 'notEmpty',
-				'message' => 'Preencha o seu nome',
-			),
+			//'required' => array(
+			//	'required' => true,
+			//	'allowEmpty' => false,
+			//	'message' => 'Preencha o seu nome',
+			//),
 		),
 		'email' => array(
 			'email' => array(
